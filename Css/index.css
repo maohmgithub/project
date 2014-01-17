@@ -1,0 +1,228 @@
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px 0 0 0;
+}
+.title > a{
+    text-decoration: none;
+    color: red;
+}
+.main{
+    width: 900px;
+    height: 600px;
+    border: 2px solid gray;
+    position: relative;
+    margin: 25px auto;
+}
+.left{
+    float: left;
+    border-right: 1px solid gray;
+    width: 30%;
+    height: 100%;
+}
+.left_top{
+    height: 19%;
+    border-bottom: 1px solid gray;
+}
+.left_top form input{
+    height: 25px;
+    margin: 40px 15px 0 30px;
+    float: left;
+}
+.left_top form img{
+    cursor: pointer;
+    width: 40px;
+    margin: 34px 0 0 0;
+}
+.left_bottom{
+    //border: 1px solid red;
+}
+.left_bottom ul li{
+    list-style-type: none;
+    //height: 35px;
+    padding-top: 14px;
+    margin-left: -20px;
+    //border: 1px solid red;
+}
+.left_bottom ul li a{
+    text-decoration: none;
+    color: #444444;
+}
+.left_bottom ul li a:hover{
+    color: blue;
+}
+.left_bottom table{
+    margin: 0 auto;
+    //border: 1px solid red;
+}
+.left_bottom table td{
+    padding: 4px 5px 4px 5px;
+    //border: 1px solid red;
+}
+.left_bottom table td:hover{
+    background-color: gray;
+}
+.left_bottom table a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+}
+.left_bottom table a:hover{
+    color: white;
+}
+.right1, .right2{
+    float: right;
+    width: 69%;
+    height: 100%;
+}
+.right1 > img{
+    width: 550px;
+    margin: 40px 0 0 30px;
+}
+.right1 .index_table{
+    margin: 100px auto;
+    font-size: 20px;
+    line-height: 40px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}
+.right_top{
+    height: 40%;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+.right_top .image{
+    float: left;
+    margin: 25px 0 0 70px;
+    //border: 1px solid red;
+}
+.right_top .image img{
+    //cursor: pointer;
+}
+.right_top .book_info{
+    float: left;
+    margin: 30px 0 0 20px;
+    width: 360px;
+    height: 200px;
+    //border: 1px solid red;
+}
+.right_top .book_info li{
+    list-style-type: none;
+    //line-height: 35px;
+    padding-top: 10px;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+.right_middle, .right_bottom{
+    height: 30%;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 0 20px;
+}
+.right_middle1, .right_bottom1, .new_comment{
+    height: 60%;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 0 20px;
+}
+.right_middle > p, .right_bottom > p, .right_middle1 > p, .right_bottom1 > p{
+    margin: 0;
+    padding: 8px 0 8px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.right_middle .summary, .right_middle1 .summary_context{
+    text-indent: 25px;
+    line-height: 25px;
+    font-size: 15px;
+    //border: 1px solid red;
+}
+.right_bottom .comment{
+    //border: 1px solid red;
+    margin: -10px 0 0 0;
+    line-height: 25px;
+}
+.right_bottom1 .comment_context{
+    line-height: 25px;
+}
+.right_bottom .comment .img, .right_bottom1 .comment_context .img{
+    float: left;
+    //border: 1px solid red;
+    cursor: pointer;
+}
+.right_bottom .comment .comment_context, .right_bottom1 .comment_context ul{
+    margin: 0 0 0 30px;
+}
+.right_bottom .comment .comment_context li, .right_bottom1 .comment_context li{
+    list-style-type: none;
+}
+.right_bottom .comment .comment_context li img, .right_bottom1 .comment_context li img{
+    height: 15px;
+    margin: 0 0 0 15px;
+}
+.right_bottom .comment .comment_context li a, .right_bottom1 .comment_context li a{
+    text-decoration: none;
+    color: blue;
+}
+.right_bottom .comment .comment_context li a:hover, .right_bottom1 .comment_context li a:hover{
+    color: white;
+    background-color: blue;
+}
+.right_bottom .comment .comment_context li .more_comment{
+    text-decoration: none;
+    color: blue;
+    float: right;
+}
+.right_bottom .comment .comment_context li .new_comment_a{
+    text-decoration: none;
+    color: blue;
+    float: right;
+    margin-right: 20px;
+}
+.right_bottom .comment .comment_context li .more_comment:hover, .right_bottom .comment .comment_context li .new_comment_a:hover{
+    color: blue;
+    background-color: white;
+    font-weight: 700;
+}
+.right_middle #summary:hover, .right_bottom #comment:hover{
+    font-weight: 700;
+}
+.right_middle1 .summary_context, .right_bottom1 .comment_context{
+    height: 78%;
+    overflow-y: scroll;
+}
+.right_middle1 > a, .right_bottom1 > a{
+    //border: 1px solid red;
+    float: right;
+    margin: 10px 40px 0 0;
+    text-decoration: none;
+    color: blue;
+}
+.right_middle1 > a:hover, .right_bottom1 > a:hover{
+    color: blue;
+    font-weight: 700;
+}
+.new_comment > p{
+    text-align: center;
+    margin: 0;
+    padding: 15px 0 0 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.new_comment form > p{
+    vertical-align: middle;
+    margin-left: 50px;
+    font-size: 15px;
+}
+.new_comment form > p input, .new_comment form > p textarea{
+    vertical-align: middle;
+}
+center a{
+    text-decoration: none;
+    font-weight:700;
+    font-size:25px;
+}
+center a:hover{
+    color: red;
+}

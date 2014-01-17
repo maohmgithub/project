@@ -1,0 +1,18 @@
+                <div class="right_top">
+                <div class="image">image</div>
+                <div class="book_info">
+                    <ul>
+                        <li>书名：</li>
+                        <li>ISBN：</li>
+                        <li>作者：</li>
+                        <li>出版社：</li>
+                        <li>价格：</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right_middle">
+                简介：
+            </div>
+            <div class="right_bottom">
+                点评：
+            </div>
